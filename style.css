@@ -1,3 +1,8 @@
+@font-face {
+  font-family: buttermilk;
+  src: url(Buttermilk.woff2);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -9,26 +14,22 @@ body {
   height: 100%;
   width: 100%;
 }
-div {
-  display: flex;
-  justify-content: center;
-}
 
 #bg {
   height: 100%;
   width: 100%;
-  background-image: url(bg.jpg);
+  background-image: url(./bg.webp);
   background-size: cover;
 }
 
 h1 {
   position: absolute;
-  top: 57%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: buttermilk;
   font-weight: 100;
-  font-size: 60px;
+  font-size: 80px;
   color: #fff;
   mix-blend-mode: difference;
 }
